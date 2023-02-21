@@ -26,13 +26,13 @@
 24 -> 4  16  4
 60 -> 10  40  10
 '''
-# s = int(input('введите число  '))
-# Petya = s/6
-# Katya = (s/6 + s/6)*2
-# Serega = s/6
-# print('Петя сделал', int(Petya), 'журавливков')
-# print('Катя сделала', int(Katya), 'журавливков')
-# print('Серёжа сделал', int(Serega), 'журавливков')
+# s = float(input('введите число  '))
+# Petya = float(s/6)
+# Katya = float((s/6 + s/6)*2)
+# Serega = float(s/6)
+# print('Петя сделал', Petya, 'журавливков')
+# print('Катя сделала', Katya, 'журавливков')
+# print('Серёжа сделал', Serega, 'журавливков')
 
 
 
@@ -71,10 +71,10 @@
 3 2 4 -> yes
 3 2 1 -> no
 '''
-n = int(input('введите n= '))
-m = int(input('введите m= '))
-k = int(input('введите k= '))
-if ((k % n == 0) or (k % m == 0)) and k < n * m:
-    print('yes')
-else:
-    print('no')
+# n = int(input('введите n= '))
+# m = int(input('введите m= '))
+# k = int(input('введите k= '))
+# if ((k % n == 0) or (k % m == 0)) and k < n * m:
+#     print('yes')
+# else:
+#     print('no')
